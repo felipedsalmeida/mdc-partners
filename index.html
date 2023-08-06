@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/exercises/exercise-1.css">
+    <link rel="stylesheet" href="./styles/exercise-2.css">
+    <link rel="stylesheet" href="./styles/exercise-3.css">
+    <link rel="stylesheet" href="./styles/exercise-4.css">
+    <link rel="stylesheet" href="./styles/exercise-5.css">
+    <link rel="stylesheet" href="./styles/exercise-6.css">
+    <link rel="stylesheet" href="./styles/exercise-7.css">
+    <link rel="stylesheet" href="./styles/exercise-8.css">
+    <title>Test - Felipe Almeida</title>
+</head>
+<body>
+    <section class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </section>
+    <section class="navbar">
+        <div class="max-width">
+            <div class="logo"><img src="./src/img/mdc_partners.png" alt="logo"></div>
+            <ul class="menu" >
+                <li><a href="#exercise-1">Exercise 1</a></li>
+                <li><a href="#exercise-2">Exercise 2</a></li>
+                <li><a href="#exercise-3">Exercise 3</a></li>                
+                <li><a href="#exercise-4">Exercise 4</a></li>
+                <li><a href="#exercise-5">Exercise 5</a></li>
+                <li><a href="#exercise-6">Exercise 6</a></li>
+                <li><a href="#exercise-7">Exercise 7</a></li>
+                <li><a href="#exercise-8">Exercise 8</a></li>
+            </ul>            
+        </div>
+    </section>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Felipe Almeida!</div>
+                <div class="text-3">And this is my test!</div>
+                <a href="https://github.com/felipedsalmeida/mdc-partners" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <p>GitHub</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="exercise-1" id="exercise-1">
+        <div class="max-width">
+            <h2 class="title title1">Exercise 1 - Calculator</h2>
+            <div class="exercise1-content">
+                <form id="calculatorForm">
+                    <input type="number" name="firstNumber" placeholder="Type a number">
+                    <input type="number" name="secondNumber" placeholder="Type a number">
+                    <input type="text" name="operator" placeholder="Type an operator: (+, -, *, /)">
+                    <button type="submit" id="send">Send</button>
+                </form>
+                <div id="calculatorResult">
+                    <!-- <p>10</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="exercise-2" id="exercise-2">
+        <div class="max-width">
+            <h2 class="title title2">Exercise 2 - Prime Numbers</h2>
+            <div class="exercise2-content">
+                <form id="primesForm">
+                    <input type="number" name="number" placeholder="Type a number">                
+                    <button type="submit" id="send">Send</button>
+                </form>
+                <div id="primesResult">
+                    <!-- <p>10</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="exercise-3" id="exercise-3">
+        <div class="max-width">
+            <h2 class="title title3">Exercise 3 - Factorial</h2>
+            <div class="exercise3-content">
+                <form id="factorialForm">
+                    <input type="number" name="number" placeholder="Type a number">
+                    <button type="submit" id="send">Send</button>
+                </form>
+                <div id="factorialResult">
+                    <!-- <p>10</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="exercise-4" id="exercise-4">
+        <div class="max-width">
+            <h2 class="title title4">Exercise 4</h2>
+            <div class="exercise4-content">
+                <form id="palindromeForm">
+                    <input type="text" name="word" placeholder="Type a word">
+                    <button type="submit" id="send">Send</button>
+                </form>
+                <div id="palindromeResult">
+                    <!-- <p>10</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="exercise-5" id="exercise-5">
+        <div class="max-width">
+            <h2 class="title title5">Exercise 5</h2>
+            <div class="exercise5-content">
+                <form id="tableForm">
+                    <input type="number" name="number" placeholder="Type a number">                
+                    <button type="submit" id="send">Send</button>
+                </form>
+            </div>
+            <table id="tableResult">
+                <!-- <p>10</p> -->
+            </table>
+        </div>
+    </section>
+    <section class="exercise-6" id="exercise-6">
+        <div class="max-width">
+            <h2 class="title title6">Exercise 6</h2>
+            <div class="exercise6-content">
+                <form id="vowelsForm">
+                    <input type="text" name="word" placeholder="Type a word">
+                    <button type="submit" id="send">Send</button>
+                </form>
+                <div id="vowelsResult">
+                    <!-- <p>10</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="exercise-7" id="exercise-7">
+        <div class="max-width">
+            <h2 class="title title7">Exercise 7</h2>
+            <div class="exercise7-content">
+                <form id="gradeForm">
+                    <input type="number" name="grade1" step=".01" placeholder="Type the first grade">
+                    <input type="number" name="grade2" step=".01" placeholder="Type the second grade">
+                    <input type="number" name="grade3" step=".01" placeholder="Type the third grade">
+                    <button type="submit" id="send">Send</button>
+                </form>
+                <div id="gradeResult">
+                    <!-- <p>10</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="exercise-8" id="exercise-8">
+        <div class="max-width">
+            <h2 class="title title8">Exercise 8</h2>
+            <div class="exercise8-content">
+                <form id="investmentForm">
+                    <input type="number" name="capital" step=".01" placeholder="Type a initial capital">
+                    <input type="number" name="rate" step=".01" placeholder="Type a the interest rate">
+                    <input type="number" name="time" placeholder="Type the investment time">
+                    <button type="submit" id="send">Send</button>
+                </form>
+                <div id="investmentResult">
+                    <!-- <p>10</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/exercise-1.js"></script>
+    <script src="./js/exercise-2.js"></script>
+    <script src="./js/exercise-3.js"></script>
+    <script src="./js/exercise-4.js"></script>
+    <script src="./js/exercise-5.js"></script>
+    <script src="./js/exercise-6.js"></script>
+    <script src="./js/exercise-7.js"></script>
+    <script src="./js/exercise-8.js"></script>
+</body>
+</html>
