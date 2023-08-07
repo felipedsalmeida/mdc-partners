@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.max-width {
+    
+    padding: 0 10%;
+}
+
+:root{
+    --primary-color:#B40E1A;
+    --white-default: #FFFFFF;
+    --gray: #CCCCCC;
+    --gray-111: #111;
+    --gray-222: #222;
+    --gray-333: #333;
+}
