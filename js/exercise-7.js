@@ -19,7 +19,7 @@ exercise7Form.addEventListener("submit", (event) => {
             userData[name] = value
         }
     })
-    // console.log(userData.firstNumber)
+    
     first = +userData.grade1
     second = +userData.grade2
     third = +userData.grade3

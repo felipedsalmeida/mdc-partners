@@ -34,8 +34,6 @@ exercise4Form.addEventListener("submit", (event) => {
     })
     
     word = userData.word
-    
-    // console.log(word)
     exercise4Value.innerText = isPalindrome(word)
 })
 exercise4Result.append(exercise4Value)

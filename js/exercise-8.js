@@ -18,7 +18,7 @@ exercise8Form.addEventListener("submit", (event) => {
             userData[name] = value
         }
     })
-    // console.log(userData.firstNumber)
+    
     first = +userData.capital
     second = +userData.rate
     third = userData.time

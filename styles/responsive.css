@@ -1,9 +1,3 @@
-/* @media(max-width: 1300px) {
-    .navbar .max-width{
-        margin-left: 0;
-    }
-} */
-
 @media(max-width: 1104px) {
     .about .about-content .left img{
         width: 350px;
@@ -20,8 +14,7 @@
 }
 
 @media(max-width: 947px) {
-    .max-width{
-        /* max-width: 800px; */
+    .max-width{       
         padding: 0 50px;
     }
     
@@ -41,34 +34,6 @@
     td {        
         font-size: 12px;
     }
-/* 
-    .about .about-content .column {
-        width: 50%;
-    }
-
-    .about .about-content .left {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
-
-    .about .about-content .right {
-        flex: 100%;
-    }
-
-    .technologies .tech-content .card{
-        width: calc(50% -10px);
-        margin-bottom: 20px;
-    }
-
-    .skills .skills-content .column,
-    .contact .contact-content .column{
-        width: 100%;
-        margin-bottom: 35px;
-    }
-    footer{
-        margin-top: 20px;
-    } */
 }
 
 @media(max-width: 768px){
@@ -87,8 +52,6 @@
         left: -100%;
         top: 0;
         background: #111;
-        
-        /* padding-top: 80px; */
         gap: 0;
         text-align: center;
         transition: all 0.3s ease;
@@ -120,12 +83,6 @@
     .home .home-content a {
         font-size: 20px;
     }
-    /* .technologies .tech-content .card{
-        width: 100%;
-    }
-    footer{
-        margin-top: 20px;
-    } */
 }
 
 @media(max-width: 500px){
@@ -136,13 +93,4 @@
     .home .home-content .text-3 {
         font-size: 27px;
     }
-    /* .technologies .title::after{
-        font-size: 18px;
-    } */
 }
-
-/* @media(max-width: 400px){
-    .about .title::after, .technologies .title::after, .projects .title::after, .contact .title::after{
-        font-size: 16px;
-    }
-} */

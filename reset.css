@@ -16,10 +16,9 @@ html{
 }
 
 :root{
-    --primary-color:#B40E1A;
+    --primary-color:#1B2D2A;
     --white-default: #FFFFFF;
-    --gray: #CCCCCC;
-    --gray-111: #111;
+    
     --gray-222: #222;
-    --gray-333: #333;
+    
 }

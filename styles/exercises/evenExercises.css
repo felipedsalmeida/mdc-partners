@@ -1,28 +1,33 @@
 .exercise-2 .title::after{
     content: "Prime Numbers";
 }
+.exercise-4 .title::after{
+    content: "Palindrome";
+}
+.exercise-6 .title::after{
+    content: "Vowels";
+}
+.exercise-8 .title::after{
+    content: "Investment";
+}
 .exercise-2 .title::before, .exercise-4 .title::before, .exercise-6 .title::before, .exercise-8 .title::before{
     background: #222;
 }
 .exercise-2 .title::after, .exercise-4 .title::after, .exercise-6 .title::after, .exercise-8 .title::after{
     background: #e5e6e4;
 }
-.exercise-2 {
+.exercise-2, .exercise-4, .exercise-6, .exercise-8 {
     display: flex;
     background:  #e5e6e4;
     height: 1080px;
-    color: var(--white-default);
-    /* min-height: 1200px; */
-    font-family: 'Ubuntu', sans-serif;
-
-    /* width: 100VW; */
+    color: var(--white-default);    
+    font-family: 'Ubuntu', sans-serif;   
     justify-content: flex-start;
     align-items: center;
-    padding: 100px 15px;
-    /* border: 2px solid #050461; */
+    padding: 100px 15px;    
     gap: 10px;
 }
-.exercise-2 .max-width {
+.exercise-2 .max-width, .exercise-4 .max-width, .exercise-6 .max-width, .exercise-8 .max-width{
     width: 100%;
     height: 100%;
     display: flex;
@@ -31,27 +36,29 @@
     gap: 20px;
 }
 
-.exercise2-content form{
+.exercise2-content form, .exercise4-content form, .exercise6-content form, .exercise8-content form{
     width: 100%;
-    display: flex;
-    /* flex-direction: column; */
+    display: flex;    
     justify-content: space-between;
     gap: 10px;
 }
-.exercise2-content form input {
+.exercise2-content form input, .exercise4-content form input, .exercise6-content form input, .exercise8-content form input {
     width: 420px;
     height: 48px;
     border-radius: 4px;
     background-color: #f1f7f5;
+    font-size: 16px;
+    font-weight: 500;
+    color:  #1B2D2A;
     border: 2px solid #e5e6e4;
     padding-left: 12px;
 }
-.exercise2-content form input::placeholder{
+.exercise2-content form input::placeholder, .exercise4-content form input::placeholder, .exercise6-content form input::placeholder, .exercise8-content form input::placeholder{
     font-size: 16px;
     font-weight: 500;
-    color: #1B2D2A;
+    color: #135f52;
 }
-.exercise2-content form button {
+.exercise2-content form button, .exercise4-content form button, .exercise6-content form button, .exercise8-content form button {
     width: 420px;
     height: 48px;
     border-radius: 4px;
@@ -63,12 +70,12 @@
     padding-left: 12px;
     cursor: pointer;
 }
-.exercise2-content form button:hover{
+.exercise2-content form button:hover, .exercise4-content form button:hover, .exercise6-content form button:hover, .exercise8-content form button:hover{
     background-color: transparent;
     border: 2px solid #e5e6e4;
 }
 
-.exercise2-content{
+.exercise2-content, .exercise4-content, .exercise6-content, .exercise8-content{
     width: 100%;    
     padding: 48px 36px;
     background-color: #222 ;
@@ -79,7 +86,7 @@
     align-items: center;
     min-height: 600px;
 }
-.exercise2-content div {
+.exercise2-content div, .exercise4-content div, .exercise6-content div, .exercise8-content div {
     width: 100%;
     height: 100%;
     background-color:#f1f7f5;
@@ -92,12 +99,14 @@
     align-items: center;
 }
 
-.exercise2-content div p {
+.exercise2-content div p, .exercise4-content div p, .exercise6-content div p, .exercise8-content div p{
     text-align: center;    
     color: #414066;
-    font-size: 32px;
+    font-size: 64px;
 }
-
-section .title2{
+.exercise2-content div p:nth-child(2){
+    font-size: 36px;
+}
+section .title2, section .title4, section .title6, section .title8{
     color: #222;
 }

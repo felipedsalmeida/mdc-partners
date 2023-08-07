@@ -1,22 +1,27 @@
+.exercise-1 .title::after{
+    content: "Calculator";
+}
+.exercise-3 .title::after{
+    content: "Factorial";
+}
 .exercise-5 .title::after{
     content: "Math Table";
 }
-.exercise-5 {
+.exercise-7 .title::after{
+    content: "Average Grade";
+}
+.exercise-1, .exercise-3, .exercise-5, .exercise-7 {
     display: flex;
     background: #222;
     height: 1080px;
-    color: var(--white-default);
-    
-    font-family: 'Ubuntu', sans-serif;
-
-    
+    color: var(--white-default);    
+    font-family: 'Ubuntu', sans-serif;    
     justify-content: flex-start;
     align-items: center;
-    padding: 100px 15px;
-    
+    padding: 100px 15px;    
     gap: 10px;
 }
-.exercise-5 .max-width {
+.exercise-1 .max-width, .exercise-3 .max-width, .exercise-5 .max-width, .exercise-7 .max-width {
     width: 100%;
     height: 100%;
     display: flex;
@@ -25,27 +30,29 @@
     gap: 20px;
 }
 
-.exercise5-content form{
+.exercise1-content form, .exercise3-content form, .exercise5-content form, .exercise7-content form{
     width: 100%;
-    display: flex;
-    
+    display: flex;    
     justify-content: space-between;
     gap: 10px;
 }
-.exercise5-content form input {
+.exercise1-content form input, .exercise3-content form input, .exercise5-content form input, .exercise7-content form input {
     width: 420px;
     height: 48px;
     border-radius: 4px;
     background-color: #f1f7f5;
+    font-size: 16px;
+    font-weight: 500;
+    color:  #1B2D2A;
     border: 2px solid #1B2D2A;
     padding-left: 12px;
 }
-.exercise5-content form input::placeholder{
+.exercise1-content form input::placeholder, .exercise3-content form input::placeholder, .exercise5-content form input::placeholder, .exercise7-content form input::placeholder{
     font-size: 16px;
     font-weight: 500;
-    color: #1B2D2A;
+    color: #135f52;
 }
-.exercise5-content form button {
+.exercise1-content form button, .exercise3-content form button, .exercise5-content form button, .exercise7-content form button {
     width: 420px;
     height: 48px;
     border-radius: 4px;
@@ -57,13 +64,13 @@
     padding-left: 12px;
     cursor: pointer;
 }
-.exercise5-content form button:hover{
+.exercise1-content form button:hover, .exercise3-content form button:hover, .exercise5-content form button:hover, .exercise7-content form button:hover{
     background-color: transparent;
     border: 2px solid #222;
     color: #222;
 }
 
-.exercise5-content{
+.exercise1-content, .exercise3-content, .exercise5-content, .exercise7-content{
     width: 100%;    
     padding: 48px 36px;
     background-color: #e5e6e4;
@@ -74,22 +81,28 @@
     align-items: center;
     min-height: 600px;
 }
-.exercise5-content div {
+.exercise1-content div, .exercise3-content div, .exercise5-content div, .exercise7-content div {
     width: 100%;
     height: 100%;
-    
     background-color: #f1f7f5;
     border: 2px solid #1B2D2A;
-    border-radius: 6px;
+    border-radius: 6px;    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.exercise1-content div p, .exercise3-content div p, .exercise7-content div p {
+    text-align: center;    
+    color: #414066;
+    font-size: 64px;
+}
 
-section .title5{
+
+section .title1, section .title3, section .title5, section .title7{
     color: #e5e6e4;
 }
+
 .exercise5-content table {
     width: 100%;
     border-collapse: collapse;

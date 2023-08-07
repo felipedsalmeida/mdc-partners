@@ -26,8 +26,6 @@ exercise6Form.addEventListener("submit", (event) => {
     })
     
     first = userData.word
-    
-    // console.log(first)
     exercise6Value.innerText = getCount(first)
 })
 exercise6Result.append(exercise6Value)
