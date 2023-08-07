@@ -1,5 +1,5 @@
 .menu-btn{
-    color: var(--white-default);
+    color: #e5e6e4;
     font-size: 26px;
     cursor: pointer;
     display: none;
@@ -13,7 +13,7 @@
     bottom: 10px;
     text-align: center;
     line-height: 50px;
-    color: var(--white-default);
+    color: #1B2D2A;
     background: #f7971c;
     border-radius: 6px;
     font-size: 30px;

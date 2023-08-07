@@ -1,3 +1,6 @@
+.exercise-3 .title::after{
+    content: "Factorial";
+}
 .exercise-3 {
     display: flex;
     background: #222;
@@ -33,18 +36,31 @@
     width: 420px;
     height: 48px;
     border-radius: 4px;
+    background-color: #f1f7f5;
     border: 2px solid #1B2D2A;
     padding-left: 12px;
+}
+.exercise3-content form input::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1B2D2A;
 }
 .exercise3-content form button {
     width: 420px;
     height: 48px;
     border-radius: 4px;
     background-color: #f7971c;
-    color: #dddcf8;
+    font-size: 16px;
+    font-weight: 700;
+    color: #e5e6e4;
     border: 2px solid #f7971c;
     padding-left: 12px;
     cursor: pointer;
+}
+.exercise3-content form button:hover{
+    background-color: transparent;
+    border: 2px solid #222;
+    color: #222;
 }
 
 .exercise3-content{
@@ -76,6 +92,6 @@
     font-size: 64px;
 }
 
-section .title1{
-    color: #fff;
+section .title3{
+    color: #e5e6e4;
 }
