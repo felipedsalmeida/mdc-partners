@@ -12,5 +12,11 @@ $(document).ready(function(){
     });
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0})
-    });    
+    });
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");        
+    });
+    $('.menu li').click(function(){
+        $('.navbar .menu').toggleClass("active");
+    })
 })
